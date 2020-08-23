@@ -1,0 +1,411 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.lista-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    display: inline-block;
+}
+
+.lista-menu li a {
+    font-size: 12pt;
+    font-family: arial;
+}
+
+.lista-menu li a:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    color: #000;
+    box-shadow: 4px 4px 6px #888;
+    transition: .3s;
+    font-size: 13pt;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.botao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #FF8006;
+    border-radius: 17px;
+    border: none;
+    padding: 7px 30px;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 7px;
+    color: #ffff;
+}
+
+.lista:hover {
+    background-color: transparent;
+    border: 1px solid #FF8006;
+    color: #FF8006;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #FF8006;
+    color: #FF8006;
+}
+
+.body-img {
+    background-image: linear-gradient(rgba(0, 0, 2, 0.7), rgba(0, 0, 4, 0.7)), url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*---------------------------------------------------------------------------
+--------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ESTILO INDEX PRINCIPAL*/
+
+.banner .top form input[type="text"] {
+    width: 800px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    box-shadow: 4px 4px 6px #888;
+    transition: .3s;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    margin-left: 19%;
+}
+
+.banner form input[type="text"]:focus {
+    box-shadow: 8px 10px 6px #888;
+}
+
+.banner .top form input[type="submit"] {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF7C01;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px #888;
+    font-size: 12pt;
+}
+
+.banner .top form input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+
+
+/*----------------------------------------------------------------
+--------------------------------------------------------------------
+----------------------------------------------------------------------
+ESTILO DAAAAS MODIAS(MODAL LOGIN, E MODAL REGISTRO)*/
+
+#modalRegistro {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 7px;
+    display: block;
+    box-shadow: 2px 2px 8px rgba(000, 000, 000, 0.4);
+}
+
+#modalLogin {
+  margin: 20px auto;
+width: 300px;
+background-color: #FFF;
+padding: 20px;
+margin-top: -12%;
+
+    height: auto;
+
+    border-radius: 8px;
+    padding: 7px;
+display:block;
+    box-shadow: 2px 2px 8px rgba(000, 000, 000, 0.4);
+}
+
+
+
+#modalLogin h3 {
+text-align: center;
+color: #777;
+}
+#modalLogin input:focus {
+border: 2px solid #FF8006;
+box-shadow: none;
+}
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+    margin-top: 12px;
+    text-align: center;
+}
+#loginBotao form input[type="submit"]{ border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;}
+  .loginBotao form input[type="submit"]:hover {
+  background-color: #2980B9;
+}
+
+#modalLogin input {
+text-align: center;
+margin-left: 5%;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+
+
+
+
+.title {
+    margin-top: -34%;
+    margin-right: -38%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+}
+
+#modalRegistro h3 {
+    text-align: center;
+    padding: 20px;
+    color: #FFAA0E;
+}
+
+#registrar {
+    cursor: pointer;
+}
+
+#registrar:hover {
+    background-color: #FFAA0E;
+    color: #fff;
+    cursor: pointer;
+}
+
+#loginBotao:hover {
+    background-color: #FFAA0E;
+    color: #fff;
+    cursor: pointer;
+}
+
+#modalRegistro input,
+select,
+textarea {
+    width: 100%;
+    padding: 7px 0;
+    padding-left: 5px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+
+/*---------------------------------------------------------------------------
+--------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ESTILO LISTA DE ANUNCIOS*/
+
+.tela {
+    background-color: #5C2D00;
+    color: #000;
+    box-shadow: 4px 4px 6px #888;
+    transition: .3s;
+    font-size: 13pt;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.tela h1 {
+    font-size: 20pt;
+}
+
+.tela form input[type="text"] {
+    width: 800px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    box-shadow: 4px 4px 6px #888;
+    transition: .3s;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+    margin-left: %;
+}
+
+.tela form input[type="submit"] {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF7C01;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px #888;
+    font-size: 12pt;
+}
+
+#bemvindo {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 51px 0px 0px 0px;
+    color: #000;
+    font-weight: bold;
+}
+
+#bemvindo h1 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#sele {
+    margin-top: -24%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+select {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 10px;
+    background: #5C2D00;
+    color: #fff;
+}
+
+option {
+    background: rgba(0, 0, 0, .5);
+}
+
+select:hover {
+    cursor: pointer;
+    background: orange;
+    transition: 1s;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex div {
+    flex: 200px;
+    margin: 10px;
+}
+
+.profile h2 {
+    color: #fff;
+}
+
+.timeline-visualizar {
+    float: left;
+    width: 50%;
+}
+
+.textos-visualizar {
+    float: right;
+    font-family: Verdana;
+}
+
+.textos-visualizar h4 {
+    color: red;
+}
+
+.retalho {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 7px 6px 6px #6666;
+}
+

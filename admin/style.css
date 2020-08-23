@@ -1,0 +1,12 @@
+#sitenav ul li a {
+    color: #fff;
+}
+
+#sitenav ul li a:hover {
+    color: rgba(20, 19, 19, 0.746)
+}
+
+#fundo {
+    background-color: #2F2F2E;
+    border-bottom: solid 2px rgb(22, 167, 193);
+}
